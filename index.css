@@ -1,0 +1,74 @@
+:root {
+    --CreamBG:#F2EAE2;
+    --PureWhite :#FFFFFF;
+    --DeepAquamarine:#3D8168;
+    --Gunmetal:#1C232B;
+    --AurometalSaurus:#6C7289;
+}
+
+.container{
+    display:flex;
+    background-color:var(--CreamBG);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    height: 450px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.picture{
+    display:flex;
+    background-size: contain;
+    width: 300px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width:100%;
+    background-color: var(--PureWhite);
+    width: 300px;
+}
+
+.headline{
+    margin: 32px 32px 0px 32px;
+}
+.headline1{
+    margin:0;
+    color: var(--AurometalSaurus);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 5px;
+    height: 15px;
+    }
+
+.headline2{
+    margin: 20px 0 0;
+    color: var(--Gunmetal);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0px;
+    height: 32px;
+    }
+.description{
+    margin:0 32px 29px ;
+    color: var(--AurometalSaurus);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0px;
+    height: 23px;
+}
+
+/* .button {
+  display:flex;
+  flex-direction: column;  
+} */
